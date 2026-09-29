@@ -31,7 +31,7 @@ weeks:
     module: containers
     topic: Container networking & volumes
     activity: Lecture & hands-on lab
-    lecture: null
+    lecture: lectures/05-networking-volumes/slides.md
     lab_due: null
   - week: 6
     module: containers
