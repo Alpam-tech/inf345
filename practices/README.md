@@ -36,3 +36,16 @@ autograder polices.
 
 Starting point for a new practice session. Copy it, don't start from
 scratch.
+
+## Practice 03 onward: Maru, not fork+PR
+
+Starting with Practice 03, submissions move to **Maru** (a private-repo
+platform built for this course) instead of the fork+PR flow above. Each
+student gets their own private repo per practice, created from a
+template on Accept — no PR, no "lightweight autograder" constraint,
+since there's no shared public fork and no time pressure to grade
+*during* the session (the repo is the student's own, async). Practices
+built on Maru can do real builds — see `practices/03-containers-101/`
+and its template repo's `.github/workflows/classroom.yml` for the
+pattern. Practice 02 stays on the old fork+PR flow; it isn't being
+migrated.
